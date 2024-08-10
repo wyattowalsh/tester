@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "postinstall": "tailwindcss build && shadcn-ui build"
+    "postinstall": "tailwindcss build"
   },
   "dependencies": {
     "d3": "^7.0.0",
@@ -15,7 +15,6 @@
     "node-fetch": "^2.6.1",
     "react": "latest",
     "react-dom": "latest",
-    "shadcn-ui": "^1.0.0",
     "tailwindcss": "^2.2.19",
     "typescript": "^4.3.5"
   },
